@@ -26,9 +26,9 @@ class DatabaseSeeder extends Seeder
 
         // 2. Akun Siswa
         $siswa = User::updateOrCreate(
-            ['email' => 'siswa@beringin.sch.id'],
+            ['email' => 'indah@beringin.sch.id'],
             [
-                'name'     => 'Ahmad Rizky (Siswa XI PPLG)',
+                'name'     => 'Indah Chintya (Siswa XI PPLG)',
                 'password' => Hash::make('password123'),
                 'role'     => 'siswa',
             ]
@@ -58,3 +58,4 @@ class DatabaseSeeder extends Seeder
         );
     }
 }
+
