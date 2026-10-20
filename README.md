@@ -63,7 +63,7 @@ beringin-smart/
    `ash
    cd beringin-backend
    `
-2. Pastikan file .env sudah siap (default port 8000 dan SQLite):
+2. Pastikan file .env sudah siap (koneksi MySQL Laragon port 3306):
    `ash
    cp .env.example .env
    php artisan key:generate
